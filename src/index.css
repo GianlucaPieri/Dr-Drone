@@ -1,0 +1,45 @@
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+   
+h1, h2, h3 {
+        font-family: 'Bruno Ace', sans-serif; 
+        
+}
+
+*{
+    font-family: 'Barlow', sans-serif;
+}
+
+body{
+    background-color: #D9D9D9;
+}
+
+
+.fa-spin-hover:hover {
+  animation: fa-spin 1s infinite linear;
+}
+
+.fa-beat-hover:hover{
+  animation: fa-beat 1s infinite linear;
+
+}
+
+.fa-bounce-hover:hover{
+  animation: fa-bounce 1s infinite linear
+}
+
+.fa-beat-fade-hover:hover{
+  animation: fa-beat-fade 1s infinite linear
+}
+
+
+
+.borderLogo{
+
+  text-shadow: 1px 1px #000;
+
+}
+
